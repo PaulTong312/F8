@@ -1,4 +1,3 @@
-
 class FeatureController {
     index(req, res) {
         res.render('feature');
@@ -7,6 +6,6 @@ class FeatureController {
     timer(req, res) {
         res.send('tong duy khang');
     }
-};
+}
 
-module.exports = new FeatureController;
+module.exports = new FeatureController();
