@@ -21,7 +21,7 @@ app.use(express.json());
 
 //Template engine
 app.engine(
-    "hbs",
+    'hbs',
     engine({
         extname: '.hbs',
     }),
