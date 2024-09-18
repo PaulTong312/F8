@@ -4,7 +4,7 @@ const router = express.Router();
 
 const featureController = require('../app/controllers/FeatureController');
 
-router.use('/timer', featureController.timer);
-router.use('/', featureController.index);
+router.get('/timer', featureController.timer);
+router.get('/', featureController.index);
 
 module.exports = router;
